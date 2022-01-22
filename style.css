@@ -29,6 +29,7 @@ textarea {
   width: 50%;
   font-size: 20px;
   font-weight: bold;
+  resize: none;
 }
 
 section,.incremento {
