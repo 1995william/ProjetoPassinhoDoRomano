@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Passinho</title>
+</head>
+
+<body>
+    <header>
+        <h1>Passinho do Romano</h1>
+    </header>
+    <main class="principal">
+        <label>
+        <select class="selecionar">
+            <option>Escolha a criptografia</option>
+            <option value="cesar">Cifra de cesar</option>
+            <option value="base64">Base 64</option>
+        </select>
+        </label>
+        
+        <textarea class="text" cols="10" rows="10" placeholder="Digite a mensagem"></textarea>
+        <textarea class="resultado" cols="10" rows="10" placeholder="Resultado..."></textarea>
+        <label class="incremento" style="display: none;">Incremento: <input type="number" id="numero" min="1" max="25" style="display: none;"></label>
+        
+        <section>
+        <label><input type="radio" name="cod" id="codificar" checked>Codificar</label>
+        
+        <label for="decodificar"><input type="radio" name="cod" id="decodificar">Decodificar</label>
+        </section>
+        
+        <input type="submit" value="Resultado" id="verificar">
+    </main>
+
+    <footer>
+        <p>&copy Desenvolvido por Rodrigo William - T13 - Resilia</p>
+    </footer>
+    <script src="cesarBase.js"></script>
+</body>
+
+</html>

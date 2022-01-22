@@ -1,0 +1,43 @@
+body {
+  background-color: cornflowerblue;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  overflow: hidden;
+}
+header {
+  text-align: center;
+  top: 10%;
+}
+.principal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.733);
+  border-radius: 10px;
+  padding: 30px;
+  width: 50%;
+  margin: 3% auto;
+  box-shadow: 0px 0px 30px black;
+}
+.selecionar {
+  padding: 5px;
+  font-size: 18px;
+}
+.text {
+  margin: 10px;
+}
+textarea {
+  width: 50%;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+section,.incremento {
+  margin: 20px auto;
+}
+#verificar {
+  width: 10%;
+}
+
+footer {
+  text-align: center;
+}
