@@ -41,10 +41,13 @@ textarea {
   font-size: 20px;
   font-weight: bold;
   resize: none;
+<<<<<<< HEAD
   border-radius: 10px;
 }
 ::placeholder {
   color: rgba(255, 255, 255, 0.842);
+=======
+>>>>>>> 916e359a7cf60a0ae0603558909d303d882d0e31
 }
 
 section,.incremento {
