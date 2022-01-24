@@ -1,43 +1,89 @@
 body {
-  background-color: cornflowerblue;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  overflow: hidden;
+  background: url(img/fundo.png) no-repeat;
+  font-family: Arial, Helvetica, sans-serif;
+  
 }
 header {
   text-align: center;
   top: 10%;
+  color: white;
 }
 .principal {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgba(255, 255, 255, 0.733);
+  background-color: rgba(255, 255, 255, 0.068);
   border-radius: 10px;
   padding: 30px;
   width: 50%;
-  margin: 3% auto;
+  margin: 2% auto;
   box-shadow: 0px 0px 30px black;
+  color: white;
 }
 .selecionar {
+  background-color: rgba(255, 255, 255, 0.068);
   padding: 5px;
   font-size: 18px;
+  border-radius: 10px;
+  color: white;
+}
+option{
+  color: black;
 }
 .text {
   margin: 10px;
 }
 textarea {
+  background: rgba(252, 252, 252, 0);
+  color: white;
+  padding: 10px;
   width: 50%;
   font-size: 20px;
   font-weight: bold;
+  resize: none;
+  border-radius: 10px;
+}
+::placeholder {
+  color: rgba(255, 255, 255, 0.842);
 }
 
 section,.incremento {
   margin: 20px auto;
 }
+.radio {
+  margin: 10px;
+  padding: 10px;
+  font-size: 23px;
+}
+.incremento {
+  font-size: 23px;
+}
+#numero {
+  margin: 0 5px;
+  border-radius: 10px;
+  padding: 2px;
+  font-size: 18px;
+  text-align: center;
+}
+
 #verificar {
-  width: 10%;
+  width: 15%;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+}
+#verificar:hover {
+  background-color:rgb(30, 72, 149);
+  color: white;
 }
 
 footer {
   text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+  margin-top: 1%;
 }

@@ -30,7 +30,7 @@ botaoResultado.addEventListener('click', function () {
     }
 });
 
-
+    // função César codificado
 function cesarCodificado() {
     let letra = document.querySelector('.text').value.toLowerCase();
     let incremento = document.getElementById('numero').value;
@@ -57,13 +57,13 @@ function cesarCodificado() {
     return resultado;
 };
 
-
+    // função César decodificado
 function cesarDecodificado() {
     let letra = document.querySelector('.text').value.toLowerCase();
     let incremento = document.getElementById('numero').value;
     let inteiro = parseInt(incremento);
     let resultado = '';
-        //
+
     if (incremento > 25 || incremento < 1) {
         document.querySelector('.resultado').innerHTML = `Incremento inválido! insira incremento de 1 a 25.`;
     } else {
